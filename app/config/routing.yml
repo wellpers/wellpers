@@ -1,0 +1,5 @@
+wellpers_association:
+    resource: "@WellpersAssociationBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

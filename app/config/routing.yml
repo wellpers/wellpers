@@ -1,5 +1,11 @@
+wellpers_user:
+    resource: "@WellpersUserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 wellpers_association:
     resource: "@WellpersAssociationBundle/Controller/"
     type:     annotation
     prefix:   /
-
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
